@@ -1,7 +1,23 @@
 {% extends 'base.html' %}
-
+{% load static %}
 
 {% block 'title' %} Bem-vindo ao remember now {% endblock %}
 
+{% block 'style' %}
+    <link rel="stylesheet" href="{% static 'css/welcome.css' %}">
+{% endblock %}
 
-{% block 'body' %} Hello, World! {% endblock %}
+
+{% block 'body' %}
+    <main id="main">
+        <div id="image">
+            <img src="{% static 'images/octopus.jpeg' %}">
+        </div>
+
+        <div id="content">
+            <h1>Organize o seu dia com o remember now</h1>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea omnis delectus debitis esse, earum architecto amet saepe laboriosam repudiandae placeat distinctio eum doloribus et ratione maxime! Maiores delectus eos ipsum!</p>
+        </div>
+    </main>
+{% endblock %}
