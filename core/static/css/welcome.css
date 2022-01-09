@@ -1,1 +1,25 @@
+#main {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
 
+#img-logo {
+    width: 50%;
+    height: 100%;
+    background: url("/static/images/octopus.jpg");
+    background-position: top right;
+}
+
+#content {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-body {
+    width: 400px;
+    text-align: center;
+}
