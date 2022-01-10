@@ -1,12 +1,12 @@
 #main {
     display: flex;
     height: 100vh;
-    flex-wrap: wrap !important;
+    gap: .5em;
 }
 
-#img-logo, #content {
-    /* width: 50%; */
+.img-logo, #content {
     height: 100%;
+    width: 50%;
 }
 
 #content {
@@ -22,6 +22,20 @@
 
 .content-body h1 {
     font-size: 1.6em;
-    margin-bottom: 20px;
+    margin-bottom: 1em;
     color: rgba(0, 0, 0, 0.85);
+}
+
+.content-body p {
+    margin-bottom: 1em;
+}
+
+button.get-started {
+    background-color: #1649FF;
+    color: white;
+    border: 0;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
 }
