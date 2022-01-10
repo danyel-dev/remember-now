@@ -1,16 +1,12 @@
 #main {
     display: flex;
     height: 100vh;
+    flex-wrap: wrap !important;
 }
 
 #img-logo, #content {
-    width: 50%;
+    /* width: 50%; */
     height: 100%;
-}
-
-#img-logo {
-    background: url("/static/images/octopus_auto_x2.jpg");
-    background-position: top right;
 }
 
 #content {
@@ -20,6 +16,12 @@
 }
 
 .content-body {
-    width: 400px;
+    width: 450px;
     text-align: center;
+}
+
+.content-body h1 {
+    font-size: 1.6em;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.85);
 }
