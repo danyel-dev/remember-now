@@ -44,3 +44,25 @@ button.get-started {
     font-weight: bold;
     font-size: 14px;
 }
+
+
+/* Responsivo */
+
+@media(max-width: 1240px) {
+    #main {
+        flex-direction: column;
+        gap: 1.5rem; 
+    }
+
+    #img-logo {
+        height: 500px;
+        width: 100%;
+        background-image: url('/static/images/octopus_medio.jpg');
+        background-position: top left;
+    }
+
+    #content {
+        width: 100%;
+        height: max-content;
+    }
+}
