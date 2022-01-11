@@ -4,9 +4,14 @@
     gap: .5em;
 }
 
-.img-logo, #content {
+#img-logo, #content {
     height: 100%;
     width: 50%;
+}
+
+#img-logo {
+    background-image: url('/static/images/octopus_auto_x2.jpg');
+    background-repeat: no-repeat;
 }
 
 #content {
@@ -31,7 +36,7 @@
 }
 
 button.get-started {
-    background-color: #1649FF;
+    background-color: #6686fa;
     color: white;
     border: 0;
     padding: 8px 16px;
